@@ -11,7 +11,7 @@ RUN \
     nodejs
 
 RUN gem install jekyll --no-ri --no-rdoc
-
+RUN gem install jekyll-import --no-ri --no-rdoc
 
 CMD ["bash"]
 
